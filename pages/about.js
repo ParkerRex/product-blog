@@ -35,7 +35,7 @@ export default function About() {
           </div>
           <div className="pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2">
             <p>
-              Hey, I'm a product manager. I started with a copy of photoshop,
+              Hey, I'm a product manager with 7 years of product experience. I started with a copy of photoshop,
               trying to design flyers and print materials. I joined a startup at 20 called Delivery Dudes.
               We needed apps so I figured out how to design them. My first apps sucked. In fact the first app I helped design is still in production used by thousands of delivery drivers.
             </p>
