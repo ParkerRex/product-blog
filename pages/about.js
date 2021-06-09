@@ -13,7 +13,7 @@ export default function About() {
       <div className="divide-y">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            About
+            About this Guy
           </h1>
         </div>
         <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
@@ -35,18 +35,21 @@ export default function About() {
           </div>
           <div className="pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2">
             <p>
-              Parker Rex is a product manager by profession. He started as a college kid with a copy of photoshop,
-              quickly learning how to design flyers and print materials. Parker joined a startup at age 21 called Delivery Dudes.
-              Soon after joining he started to teach himself UX design and was responsible for putting out the driver app.
+              Hey, I'm a product manager. I started with a copy of photoshop,
+              trying to design flyers and print materials. I joined a startup at 20 called Delivery Dudes.
+              We needed apps so I figured out how to design them. My first apps sucked. In fact the first app I helped design is still in production used by thousands of delivery drivers.
             </p>
             <p>
-              After 2 years of self taught product design, and 3 production app releases later, Parker took on the role
-              of product manager, while still handling all product design. Over the next 5 years, Parker would rise to the ranks
-              of VP of Product where he would help scale the company from 1 to 84 cities served. Delivery Dudes was acquired by WAITR in April
-              of 2021. Parker resigned from Delivery Dudes in June of 2021 after recognizing the work no longer interested him.
+              2 years and a few more production apps later, I was dubbed the almighty role of PM. I would still design all the products.
+              Eventually the CTO of Delivery Dudes resigned and I took the helm as VP of Product. I held that position for 3 years until I resigned. 
+              Delivery Dudes was acquired by WAITR in April of 2021. I stuck around for a ~3 months helping build a team of 10 engineers to merge WAITR, Bytesquad, and Delivery Dudes.
             </p>
             <p>
-              Parker now spends his time learning next.js, front end web development, and flutter mobile app development.
+              As of writing, I'm spending time traveling, coding, and making YouTube videos. 
+              I have 2 startups I'll be hacking on over the summer. Excited for their launch :).
+              <p>
+                -Parker
+              </p>
             </p>
           </div>
         </div>
