@@ -22,8 +22,8 @@ export default function About() {
             <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">
               {siteMetadata.author}
             </h3>
-            <div className="text-gray-500 dark:text-gray-400">Professor of Atmospheric Science</div>
-            <div className="text-gray-500 dark:text-gray-400">Stanford University</div>
+            <div className="text-gray-500 dark:text-gray-400">Creator of Products</div>
+            <div className="text-gray-500 dark:text-gray-400">Planet Earth</div>
             <div className="flex pt-6 space-x-3">
               <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} />
               <SocialIcon kind="github" href={siteMetadata.github} />
@@ -35,19 +35,18 @@ export default function About() {
           </div>
           <div className="pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2">
             <p>
-              Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His
-              research interests includes complexity modelling of tailwinds, headwinds and
-              crosswinds.
+              Parker Rex is a product manager by profession. He started as a college kid with a copy of photoshop,
+              quickly learning how to design flyers and print materials. Parker joined a startup at age 21 called Delivery Dudes.
+              Soon after joining he started to teach himself UX design and was responsible for putting out the driver app.
             </p>
             <p>
-              He leads the clean energy group which develops 3D air pollution-climate models, writes
-              differential equation solvers, and manufactures titanium plated air ballons. In his
-              free time he bakes raspberry pi.
+              After 2 years of self taught product design, and 3 production app releases later, Parker took on the role
+              of product manager, while still handling all product design. Over the next 5 years, Parker would rise to the ranks
+              of VP of Product where he would help scale the company from 1 to 84 cities served. Delivery Dudes was acquired by WAITR in April
+              of 2021. Parker resigned from Delivery Dudes in June of 2021 after recognizing the work no longer interested him.
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique
-              placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem
-              nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+              Parker now spends his time learning next.js, front end web development, and flutter mobile app development.
             </p>
           </div>
         </div>

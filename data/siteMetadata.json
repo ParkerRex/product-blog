@@ -2,7 +2,7 @@
   "title": "Product Blog",
   "author": "Parker Rex",
   "headerTitle": "Product Blog",
-  "description": "A blog created with Next.js and Tailwind.css",
+  "description": "A place I share my thoughts on product.",
   "language": "en-us",
   "siteUrl": "https://tailwind-nextjs-starter-blog.vercel.app",
   "siteRepo": "https://github.com/ParkerRex/product-blog",
@@ -12,7 +12,7 @@
   "github": "https://github.com/parkerrex",
   "twitter": "https://twitter.com/parkerrex",
   "facebook": "https://facebook.com/parker-rex",
-  "youtube": "https://youtube.com",
+  "youtube": "https://youtube.com/channel/UCcuaQecz84wTuxKzr1Yxi4Q",
   "linkedin": "https://www.linkedin.com/in/parker-rex",
   "locale": "en-US"
 }

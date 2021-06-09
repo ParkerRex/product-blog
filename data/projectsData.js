@@ -1,17 +1,13 @@
 const projectsData = [
   {
     title: 'Delivery Dudes',
-    description: `What is you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
+    description: `I was responsible for all product at Delivery Dudes from 2016-2021. I designed and PM'ed the customer app, restaurant app, driver app, restaurant dashboard, customer ordering tool, automated dispatch and several other tools.`,
+    imgSrc: '/static/images/DD_FullLogo_White.png',
     href: 'https://www.DeliveryDudes.com',
   },
   {
     title: 'Parker\'s Product Show',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten handphones with this simple yet affordable solution.`,
+    description: `When I was coming up in product management I had a lot of trouble finding easy to approach content. Instead I turned to a stack of books and blog articles. I started my YouTube channel in January of 2020 to help new aspring PM's and existing PM's to get better at their job.`,
     imgSrc: '/static/images/time-machine.jpg',
     href: 'https://www.youtube.com',
   },
