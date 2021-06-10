@@ -9,7 +9,7 @@ const projectsData = [
     title: 'Parker\'s Product Show',
     description: `When I was coming up in product management I had a lot of trouble finding easy to approach content. Instead I turned to a stack of books and blog articles. I started my YouTube channel in January of 2020 to help new aspring PM's and existing PM's to get better at their job.`,
     imgSrc: '/static/images/time-machine.jpg',
-    href: 'https://www.youtube.com',
+    href: 'https://www.youtube.com/channel/UCcuaQecz84wTuxKzr1Yxi4Q',
   },
 ]
 
