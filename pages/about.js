@@ -13,7 +13,7 @@ export default function About() {
       <div className="divide-y">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            About this Guy
+            About Me
           </h1>
         </div>
         <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
@@ -35,20 +35,28 @@ export default function About() {
           </div>
           <div className="pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2">
             <p>
-              Hey, I'm a product manager with 7 years of product experience. I started with a copy of photoshop,
-              trying to design flyers and print materials. I joined a startup at 20 called Delivery Dudes.
-              We needed apps so I figured out how to design them. My first apps sucked. In fact the first app I helped design is still in production used by thousands of delivery drivers.
+              Hey, I'm a product enthusiast with 7 years of product experience. 2 in design, 2 as PM, 3 as VP Product. VP Product to me meant getting in the weeds in <a href='https://figma.com'>figma,</a> writing <a href='https://basecamp.com/shapeup/1.5-chapter-06'>pitches,</a> hiring engineers, working in <a href='https://amplitude.com'>amplitude,</a> occasionally pushing commits, running 5 pods, and sitting on the executive team. A wide array.
             </p>
             <p>
-              2 years and a few more production apps later, I was dubbed the almighty role of PM. I would still design all the products.
+            <p>
+              I started with a copy of photoshop
+              designing flyers and print materials for Delivery Dudes.
+              We needed apps so I figured out how to design them. My first apps sucked. Funny enough the first app I helped design is still in production used by thousands of delivery drivers.
+            </p>
+              A few years and a few more production apps later, I was dubbed the almighty role of PM. I still designed all the products. 
               Eventually the CTO of Delivery Dudes resigned and I took the helm as VP of Product. I held that position for 3 years until I resigned. 
-              Delivery Dudes was acquired by WAITR in April of 2021. I stuck around for a ~3 months helping build a team of 10 engineers to merge WAITR, Bytesquad, and Delivery Dudes.
+              Delivery Dudes was acquired by WAITR in June of 2021. Post acquisition I worked with our <a href='https://kaylegishen.com'>VP Engineering</a> to put together a plan to merge Delivery Dudes, Bitesquad and Waitr tech stacks. It was similar to <a href='https://doordash.engineering/2020/09/29/caviar-web-experience-react-components/'>this one done by DoorDash and Caviar.</a>
             </p>
             <p>
-              As of writing, I'm spending time traveling, coding, and making YouTube videos. 
-              I have 2 startups I'll be hacking on over the summer. Excited for their launch :).
+              Right now I'm traveling, coding, and making YouTube videos. I am open for consulting just <a href="mailto:me@parkerrex.com?subject=Hey Parker, I saw your site and...">shoot me an email.</a>
+              <p>
+              Want more details? <a href='/static/images/Parker-Rex-Resume.pdf' download><b>Download my resume.</b></a>
+              </p>
               <p>
                 -Parker
+              </p>
+              <p>
+                ps. Also.. did I mention <a href='https://www.youtube.com/channel/UCcuaQecz84wTuxKzr1Yxi4Q'>I make YouTube videos?</a>
               </p>
             </p>
           </div>
