@@ -1,9 +1,9 @@
 const projectsData = [
   {
     title: 'Delivery Dudes',
-    description: `I was responsible for all product at Delivery Dudes from 2016-2021. I designed and PM'ed the customer app, restaurant app, driver app, restaurant dashboard, customer ordering tool, automated dispatch and several other tools.`,
+    description: `I spent 7 years at Delivery Dudes working in product. 2 in design, 2 in PM, 2 as VP Product. You can read more about my involvement on the about page.`,
     imgSrc: '/static/images/DD_FullLogo_White.png',
-    href: 'https://www.DeliveryDudes.com',
+    href: '/about',
   },
   {
     title: 'Parker\'s Product Show',
