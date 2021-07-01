@@ -26,9 +26,6 @@ export default function Footer() {
             Tailwind Nextjs Theme
           </Link>
         </div>
-        <div>
-        <script async data-uid="ff5ecf66c9" src="https://awesome-creator-6998.ck.page/ff5ecf66c9/index.js"></script>
-        </div>
       </div>
     </footer>
   )
