@@ -26,7 +26,7 @@ export default function Home({ posts }) {
           <h2 className="text-2xl font-bold leading-8 tracking-tight">
           Upgrade your brain
           </h2>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">Get the best resources for unlocking your potential each week.</p>
+          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">Get the best tech resources for unlocking your potential each week.</p>
             <script async data-uid="ff5ecf66c9" src="https://awesome-creator-6998.ck.page/ff5ecf66c9/index.js"></script>
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Latest
