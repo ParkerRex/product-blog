@@ -48,7 +48,7 @@ function Subscribe() {
         type="email"
       />
       <div>{message ? message : `I'll only send emails when new content is posted. No spam.`}</div>
-      <button type="submit" className="bg-green-500 hover:bg-green 700">
+      <button type="submit" className="bg-blue-500 hover:bg-blue-700 font-bold py-2 px-4 rounded">
         {'✨ Subscribe 💌'}
       </button>
     </form>
