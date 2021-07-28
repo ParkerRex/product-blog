@@ -37,7 +37,8 @@ function Subscribe() {
   return (
     <div className="border border-blue-300 rounded p-8 my-4 w-full dark:border-gray-800 bg-blue-50 dark:bg-blue-opaque">
       <form onSubmit={subscribe}>
-        <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email-input">
+        <p className="text-2xl font-bold text-gray-900">Subscribe to the newsletter</p>
+        <label className="block text-gray-900 text-sm font-bold mb-2" htmlFor="email-input">
           {'Email Address'}
         </label>
         <input
