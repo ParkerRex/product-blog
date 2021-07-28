@@ -1,6 +1,4 @@
 import React, { useRef, useState } from 'react'
-import ThemeSwitch from './ThemeSwitch'
-import siteMetadata from '@/data/siteMetadata'
 
 function Subscribe() {
   // 1. Create a reference to the input so we can fetch/clear it's value.
@@ -35,23 +33,33 @@ function Subscribe() {
     inputEl.current.value = ''
     setMessage('Success! 🎉 You are now subscribed to the newsletter.')
   }
-
+  // TODO: get the darkmode to work
   return (
-    <form className="rounded-lg" onSubmit={subscribe}>
-      <label htmlFor="email-input">{'Email Address'}</label>
-      <input
-        id="email-input"
-        name="email"
-        placeholder="you@awesome.com"
-        ref={inputEl}
-        required
-        type="email"
-      />
-      <div>{message ? message : `I'll only send emails when new content is posted. No spam.`}</div>
-      <button type="submit" className="bg-blue-500 hover:bg-blue-700 font-bold py-2 px-4 rounded">
-        {'✨ Subscribe 💌'}
-      </button>
-    </form>
+    <div className="border border-blue-300 rounded p-8 my-4 w-full dark:border-gray-800 bg-blue-50 dark:bg-blue-opaque">
+      <form onSubmit={subscribe}>
+        <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email-input">
+          {'Email Address'}
+        </label>
+        <input
+          id="email-input"
+          name="email"
+          placeholder="you@awesome.com"
+          ref={inputEl}
+          required
+          type="email"
+          className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+        />
+        <div className="text-black p-2">
+          {message ? message : `I'll only send emails when new content is posted. No spam.`}
+        </div>
+        <button
+          type="submit"
+          className="text-white bg-blue-500 hover:bg-blue-700 font-bold py-2 px-4 rounded "
+        >
+          {'✨ Subscribe'}
+        </button>
+      </form>
+    </div>
   )
 }
 export default Subscribe
