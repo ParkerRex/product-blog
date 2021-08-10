@@ -4,6 +4,8 @@ import SectionContainer from '@/components/SectionContainer'
 import { BlogSeo } from '@/components/SEO'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
+import Subscribe from '@/components/Subscribe'
+import subscribe from 'pages/api/subscribe'
 
 const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/blog/${fileName}`
 const discussUrl = (slug) =>
@@ -71,6 +73,11 @@ export default function PostLayout({ children, frontMatter, next, prev }) {
             </dl>
             <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:pb-0 xl:col-span-3 xl:row-span-2">
               <div className="pt-10 pb-8 prose dark:prose-dark max-w-none">{children}</div>
+              <p className="pt-10">
+                I write a newsletter each tuesday. It's the best information I find every week,
+                condensed into a 2 minute email that you receive 1x a week at 2pm et.
+              </p>
+              <Subscribe />
               <div className="pt-6 pb-6 text-sm text-gray-700 dark:text-gray-300">
                 <Link href={discussUrl(slug)} rel="nofollow">
                   {'Discuss on Twitter'}
