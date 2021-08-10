@@ -37,7 +37,7 @@ function Subscribe() {
   return (
     <div className="border border-blue-300 rounded p-8 my-4 w-full dark:border-gray-800 bg-blue-50 dark:bg-blue-opaque">
       <form onSubmit={subscribe}>
-        <p className="text-2xl font-bold text-gray-900">Subscribe to the newsletter</p>
+        <p className="text-2xl font-bold text-gray-900">Join 2PM Tech Tuesdays</p>
         <label className="block text-gray-900 text-sm font-bold mb-2" htmlFor="email-input">
           {'Email Address'}
         </label>
@@ -51,7 +51,9 @@ function Subscribe() {
           className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
         />
         <div className="text-black p-2">
-          {message ? message : `I'll only send emails when new content is posted. No spam.`}
+          {message
+            ? message
+            : `No Bs. Best Entrepreneurship, PM, Productivity and Investing links on the internet`}
         </div>
         <button
           type="submit"
