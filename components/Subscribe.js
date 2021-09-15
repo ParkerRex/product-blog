@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react'
+import { useTheme } from 'next-themes'
 
 function Subscribe() {
   // 1. Create a reference to the input so we can fetch/clear it's value.
@@ -34,8 +35,15 @@ function Subscribe() {
     setMessage('Success! 🎉 You are now subscribed to the newsletter.')
   }
   // TODO: get the darkmode to work
+  const { theme } = useTheme()
   return (
-    <div className="border border-blue-300 rounded p-8 my-4 w-full dark:border-gray-800 bg-blue-50 dark:bg-blue-opaque">
+    <div
+      className={
+        theme === 'dark theme'
+          ? 'dark'
+          : 'border border-blue-300 rounded p-8 my-4 w-full dark:border-gray-800 bg-blue-50 dark:bg-blue-opaque '
+      }
+    >
       <form onSubmit={subscribe}>
         <p className="text-2xl font-bold text-gray-900">Join 2PM Tech Tuesdays</p>
         <label className="block text-gray-900 text-sm font-bold mb-2" htmlFor="email-input">

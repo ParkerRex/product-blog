@@ -1,4 +1,5 @@
 import '@/css/tailwind.css'
+import '../css/style.css'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 
