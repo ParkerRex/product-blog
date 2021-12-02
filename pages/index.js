@@ -4,6 +4,7 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import Subscribe from '@/components/Subscribe'
+import { boxShadow } from 'tailwindcss/defaultTheme'
 
 const MAX_DISPLAY = 5
 const postDateTemplate = { year: 'numeric', month: 'long', day: 'numeric' }
@@ -22,6 +23,23 @@ export default function Home({ posts }) {
         description={siteMetadata.description}
         url={siteMetadata.siteUrl}
       />
+      <div className="flex justify-center py-10">
+        <iframe
+          title="Email Signup"
+          src="https://thefoundersjourney.substack.com/embed"
+          width="480"
+          height="320"
+          style={{
+            border: '1px',
+            solid: '#EEEEEE',
+            background: 'white',
+            borderRadius: '40px',
+            boxShadow: '0rem 0rem 1.5rem yellow',
+          }}
+          frameBorder="0"
+          scrolling="no"
+        ></iframe>
+      </div>
 
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
