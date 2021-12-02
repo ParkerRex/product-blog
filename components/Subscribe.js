@@ -35,10 +35,15 @@ function Subscribe() {
   }
   // TODO: get the darkmode to work
   return (
-    <div className="border border-blue-300 rounded p-8 my-4 w-full dark:border-gray-800 bg-blue-50 dark:bg-blue-opaque">
+    <div className="w-full p-8 my-4 border border-blue-300 rounded dark:border-gray-800 bg-blue-50 dark:bg-gray-900 ">
       <form onSubmit={subscribe}>
-        <p className="text-2xl font-bold text-gray-900">Join 2PM Tech Tuesdays</p>
-        <label className="block text-gray-900 text-sm font-bold mb-2" htmlFor="email-input">
+        <p className="text-2xl font-bold text-gray-900 dark:text-gray-100">
+          Join 2PM Tech Tuesdays
+        </p>
+        <label
+          className="block mb-2 text-sm font-bold text-gray-900 dark:text-gray-400"
+          htmlFor="email-input"
+        >
           {'Email Address'}
         </label>
         <input
@@ -48,16 +53,16 @@ function Subscribe() {
           ref={inputEl}
           required
           type="email"
-          className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          className="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none dark:text-gray-400 focus:outline-none focus:shadow-outline"
         />
-        <div className="text-black p-2">
+        <div className="p-2 text-black dark:text-gray-400">
           {message
             ? message
             : `No Bs. Best Entrepreneurship, PM, Productivity and Investing links on the internet`}
         </div>
         <button
           type="submit"
-          className="text-white bg-blue-500 hover:bg-blue-700 font-bold py-2 px-4 rounded "
+          className="px-4 py-2 font-bold text-white bg-blue-500 rounded dark:text-gray-100 hover:bg-blue-700 "
         >
           {'✨ Subscribe'}
         </button>
